@@ -1,0 +1,79 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "rorpage",
+    "longName": "Epcot Watch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/seas.png",
+                "name": "IMAGE_10",
+                "type": "png"
+            },
+            {
+                "file": "images/motion.png",
+                "name": "IMAGE_09",
+                "type": "png"
+            },
+            {
+                "file": "images/life.png",
+                "name": "IMAGE_08",
+                "type": "png"
+            },
+            {
+                "file": "images/land.png",
+                "name": "IMAGE_07",
+                "type": "png"
+            },
+            {
+                "file": "images/imagination.png",
+                "name": "IMAGE_06",
+                "type": "png"
+            },
+            {
+                "file": "images/horizons.png",
+                "name": "IMAGE_05",
+                "type": "png"
+            },
+            {
+                "file": "images/epcot.png",
+                "name": "IMAGE_04",
+                "type": "png"
+            },
+            {
+                "file": "images/earth.png",
+                "name": "IMAGE_02",
+                "type": "png"
+            },
+            {
+                "file": "images/energy.png",
+                "name": "IMAGE_03",
+                "type": "png"
+            },
+            {
+                "file": "images/communicore.png",
+                "name": "IMAGE_01",
+                "type": "png"
+            },
+            {
+                "file": "fonts/RobotoSlab-Regular.ttf",
+                "name": "ROBOTO_SLAB_20",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Epcot Watch",
+    "uuid": "63413b19-d49e-44b6-adc9-9e5231fa5a79",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}

@@ -12,6 +12,12 @@
     "resources": {
         "media": [
             {
+                "file": "images/epcot_28.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
                 "file": "images/seas.png",
                 "name": "IMAGE_10",
                 "type": "png"
@@ -72,7 +78,7 @@
     "shortName": "Epcot Watch",
     "uuid": "63413b19-d49e-44b6-adc9-9e5231fa5a79",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }

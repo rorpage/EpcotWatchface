@@ -12,12 +12,6 @@
     "resources": {
         "media": [
             {
-                "file": "images/epcot_28.png",
-                "menuIcon": true,
-                "name": "ICON",
-                "type": "png"
-            },
-            {
                 "file": "images/seas.png",
                 "name": "IMAGE_10",
                 "type": "png"
@@ -48,8 +42,8 @@
                 "type": "png"
             },
             {
-                "file": "images/epcot.png",
-                "name": "IMAGE_04",
+                "file": "images/energy.png",
+                "name": "IMAGE_03",
                 "type": "png"
             },
             {
@@ -58,13 +52,19 @@
                 "type": "png"
             },
             {
-                "file": "images/energy.png",
-                "name": "IMAGE_03",
+                "file": "images/communicore.png",
+                "name": "IMAGE_01",
                 "type": "png"
             },
             {
-                "file": "images/communicore.png",
-                "name": "IMAGE_01",
+                "file": "images/epcot_28.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/epcot.png",
+                "name": "IMAGE_04",
                 "type": "png"
             },
             {
@@ -74,11 +74,14 @@
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "Epcot Watch",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "63413b19-d49e-44b6-adc9-9e5231fa5a79",
-    "versionCode": 1,
-    "versionLabel": "1.1",
+    "versionLabel": "2.0",
     "watchapp": {
         "watchface": true
     }

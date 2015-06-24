@@ -49,9 +49,9 @@ static void update_time() {
 }
 
 static void main_window_load(Window *window) {
-  s_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ROBOTO_SLAB_20));
+  s_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_PROTOTYPE_18));
   
-  //Create GBitmap, then set to created BitmapLayer
+  // Create GBitmap, then set to created BitmapLayer
   s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_02);
   s_background_layer = bitmap_layer_create(GRect(0, 0, 144, 168));
   bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
@@ -59,7 +59,7 @@ static void main_window_load(Window *window) {
   
   // Create time TextLayer
   s_timedate_layer = text_layer_create(GRect(0, 2, 144, 25));
-  text_layer_set_background_color(s_timedate_layer, GColorClear);
+  text_layer_set_background_color(s_timedate_layer, GColorWhite);
   text_layer_set_text_color(s_timedate_layer, GColorBlack);
   text_layer_set_text_alignment(s_timedate_layer, GTextAlignmentCenter);
   text_layer_set_text(s_timedate_layer, "00:00 // mm.dd");
@@ -70,7 +70,7 @@ static void main_window_load(Window *window) {
   
   // Create temperature Layer
   s_weather_layer = text_layer_create(GRect(0, 140, 144, 25));
-  text_layer_set_background_color(s_weather_layer, GColorClear);
+  text_layer_set_background_color(s_weather_layer, GColorWhite);
   text_layer_set_text_color(s_weather_layer, GColorBlack);
   text_layer_set_text_alignment(s_weather_layer, GTextAlignmentCenter);
   text_layer_set_text(s_weather_layer, "Loading...");
@@ -186,6 +186,7 @@ static void outbox_sent_callback(DictionaryIterator *iterator, void *context) {
 static void init() {
   // Create main Window element and assign to pointer
   s_main_window = window_create();
+  window_set_background_color(s_main_window, GColorBlack);
 
   // Set handlers to manage the elements inside the Window
   window_set_window_handlers(s_main_window, (WindowHandlers) {

@@ -12,6 +12,11 @@
     "resources": {
         "media": [
             {
+                "file": "fonts/Prototype.ttf",
+                "name": "PROTOTYPE_18",
+                "type": "font"
+            },
+            {
                 "file": "images/seas.png",
                 "name": "IMAGE_10",
                 "type": "png"
@@ -66,11 +71,6 @@
                 "file": "images/epcot.png",
                 "name": "IMAGE_04",
                 "type": "png"
-            },
-            {
-                "file": "fonts/RobotoSlab-Regular.ttf",
-                "name": "ROBOTO_SLAB_20",
-                "type": "font"
             }
         ]
     },
@@ -81,7 +81,7 @@
         "basalt"
     ],
     "uuid": "63413b19-d49e-44b6-adc9-9e5231fa5a79",
-    "versionLabel": "2.0",
+    "versionLabel": "2.1",
     "watchapp": {
         "watchface": true
     }
